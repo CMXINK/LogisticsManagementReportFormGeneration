@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="mainauto">
+    <file>auto_main_treewidget.png</file>
+    <file>mainauto_function_checkbox_drop-down.png</file>
+  </qresource>
+</RCC>

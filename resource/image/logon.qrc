@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="logon">
+    <file>ico-password.png</file>
+    <file>ico-user.png</file>
+    <file>tuju-arrow-01_2_optimised3.jpg</file>
+    <file>logon_safe1.jpg</file>
+    <file>logon.jpg</file>
+  </qresource>
+</RCC>

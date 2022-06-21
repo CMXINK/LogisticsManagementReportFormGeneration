@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>685</width>
+    <height>461</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>250</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>123</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>456</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>789</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>000</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>309</x>
+     <y>29</y>
+     <width>311</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 4px solid rgb(85, 170, 127);</string>
+   </property>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>280</width>
+      <height>139</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout_2">
+     <item row="0" column="0">
+      <widget class="QLabel" name="hellokittyLabel_2">
+       <property name="text">
+        <string>hellokitty</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="hellokittyLineEdit_2"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="cmxLabel_2">
+       <property name="text">
+        <string>cmx</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="cmxLineEdit_2"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="cloverLabel_2">
+       <property name="text">
+        <string>clover</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="cloverLineEdit_2"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="lovercLabel_2">
+       <property name="text">
+        <string>loverc</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="lovercLineEdit_2"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>40</y>
+     <width>113</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

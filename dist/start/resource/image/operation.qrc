@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="operation">
+    <file>mainauto_function_checkbox_drop-down.png</file>
+  </qresource>
+</RCC>

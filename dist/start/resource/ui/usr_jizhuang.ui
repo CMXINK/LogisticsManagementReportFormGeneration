@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1119</width>
+    <height>1408</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <widget class="QWidget" name="widget_7" native="true">
+     <property name="styleSheet">
+      <string notr="true">QWidget{	
+	font: 14pt &quot;微软雅黑&quot;;
+	border:none;
+	border:1px solid rgb(0,0,0);
+	font: 10pt &quot;微软雅黑&quot;;
+}
+QWidget QLabel{
+	border:none;
+	
+}
+QWidget QLineEdit{
+	font: 10pt &quot;微软雅黑&quot;;	
+}</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="topMargin">
+       <number>7</number>
+      </property>
+      <property name="bottomMargin">
+       <number>7</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="widget_6" native="true">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+	border:none;
+	border-radius:12px;	
+	font: 15pt &quot;楷体&quot;;	
+	background-color: rgb(255, 85, 0);
+	color:rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	border:none;
+	border-radius:12px;	
+	font: 15pt &quot;楷体&quot;;	
+	background-color: rgb(255, 85, 0);
+	color: rgb(255, 85, 0);
+}
+QWidget{
+	border:none;
+}</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_14">
+         <property name="spacing">
+          <number>60</number>
+         </property>
+         <property name="leftMargin">
+          <number>15</number>
+         </property>
+         <property name="topMargin">
+          <number>4</number>
+         </property>
+         <property name="rightMargin">
+          <number>15</number>
+         </property>
+         <property name="bottomMargin">
+          <number>4</number>
+         </property>
+         <item>
+          <widget class="QComboBox" name="operation_from_combobox">
+           <property name="styleSheet">
+            <string notr="true">QComboBox{
+	border:none;
+	border-radius:7px;	
+	font: 15pt &quot;微软雅黑&quot;;	
+	background-color: rgb(255, 85, 0);
+	color:rgb(255, 255, 255);
+}
+QComboBox:clicked{
+	border:none;
+	border-radius:7px;	
+	font: 15pt &quot;微软雅黑&quot;;	
+	background-color: rgb(255, 85, 0);
+	color: rgb(255, 85, 0);
+}
+QComboBox::drop-down{
+	width:30px;
+	border-radius:7px;		
+}
+QComboBox QAbstractItemView{
+	background-color:rgb(255, 170, 127);
+}
+QComboBox Items{
+	
+	font: 6pt &quot;微软雅黑&quot;;
+}
+border-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(35, 40, 3, 255), stop:0.16 rgba(136, 106, 22, 255), stop:0.225 rgba(166, 140, 41, 255), stop:0.285 rgba(204, 181, 74, 255), stop:0.345 rgba(235, 219, 102, 255), stop:0.415 rgba(245, 236, 112, 255), stop:0.52 rgba(209, 190, 76, 255), stop:0.57 rgba(187, 156, 51, 255), stop:0.635 rgba(168, 142, 42, 255), stop:0.695 rgba(202, 174, 68, 255), stop:0.75 rgba(218, 202, 86, 255), stop:0.815 rgba(208, 187, 73, 255), stop:0.88 rgba(187, 156, 51, 255), stop:0.935 rgba(137, 108, 26, 255), stop:1 rgba(35, 40, 3, 255));
+</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>  集装箱表单</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>  产装通知</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>  费用结算单</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>  费用确认单</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>  集港通知</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>  提单样本</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>  装箱委托书</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="operation_refresh_btn">
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	border:none;
+	border-radius:7px;	
+	font: 15pt &quot;微软雅黑&quot;;	
+	background-color: rgb(31, 117, 213);
+	color:rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	border:none;
+	border-radius:7px;	
+	font: 15pt &quot;微软雅黑&quot;;	
+	background-color: rgb(31, 117, 213);
+	color: rgb(255, 85, 0);
+}</string>
+           </property>
+           <property name="text">
+            <string>刷新</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="operation_sql_btn">
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>15</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	border:none;
+	border-radius:7px;	
+	font: 15pt &quot;微软雅黑&quot;;	
+	background-color: rgb(31, 117, 213);
+	color:rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	border:none;
+	border-radius:7px;	
+	font: 15pt &quot;微软雅黑&quot;;	
+	background-color: rgb(31, 117, 213);
+	color: rgb(255, 85, 0);
+}</string>
+           </property>
+           <property name="text">
+            <string>保存</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="operation_reset_btn">
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	border:none;
+	border-radius:7px;	
+	font: 15pt &quot;微软雅黑&quot;;	
+	background-color: rgb(31, 117, 213);
+	color:rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	border:none;
+	border-radius:7px;	
+	font: 15pt &quot;微软雅黑&quot;;	
+	background-color: rgb(31, 117, 213);
+	color: rgb(255, 85, 0);
+}</string>
+           </property>
+           <property name="text">
+            <string>重置</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="operation_help_btn">
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	border:none;
+	border-radius:7px;	
+	font: 15pt &quot;微软雅黑&quot;;	
+	background-color: rgb(31, 117, 213);
+	color:rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	border:none;
+	border-radius:7px;	
+	font: 15pt &quot;微软雅黑&quot;;	
+	background-color: rgb(31, 117, 213);
+	color: rgb(255, 85, 0);
+}</string>
+           </property>
+           <property name="text">
+            <string>帮助</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget" native="true">
+        <property name="styleSheet">
+         <string notr="true">QWidget {
+	border:1px dotted rgb(189, 189, 189);
+}
+QWidget QLineEdit {
+	border:1px solid rgb(0,0,0);
+}</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="widget_8" native="true">
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <property name="leftMargin">
+             <number>5</number>
+            </property>
+            <property name="topMargin">
+             <number>11</number>
+            </property>
+            <property name="rightMargin">
+             <number>5</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="styleSheet">
+               <string notr="true">border:none;
+color:red;</string>
+              </property>
+              <property name="text">
+               <string>船舶信息</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QFormLayout" name="formLayout">
+              <property name="horizontalSpacing">
+               <number>12</number>
+              </property>
+              <property name="verticalSpacing">
+               <number>7</number>
+              </property>
+              <property name="leftMargin">
+               <number>5</number>
+              </property>
+              <property name="topMargin">
+               <number>5</number>
+              </property>
+              <property name="rightMargin">
+               <number>5</number>
+              </property>
+              <property name="bottomMargin">
+               <number>5</number>
+              </property>
+              <item row="0" column="0">
+               <widget class="QLabel" name="Label">
+                <property name="styleSheet">
+                 <string notr="true">border:none;
+color:red;</string>
+                </property>
+                <property name="text">
+                 <string>提单号</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QLineEdit" name="tidanhao_lineedit">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="Label_2">
+                <property name="styleSheet">
+                 <string notr="true">border:none;
+color:green;</string>
+                </property>
+                <property name="text">
+                 <string>预计开船日</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLineEdit" name="yujikaichuanri_lineedit">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="Label_3">
+                <property name="styleSheet">
+                 <string notr="true">border:none;
+color:red;</string>
+                </property>
+                <property name="text">
+                 <string>船名</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QLineEdit" name="chuanming_lineedit">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QLabel" name="Label_4">
+                <property name="styleSheet">
+                 <string notr="true">border:none;
+color:orange;</string>
+                </property>
+                <property name="text">
+                 <string>装货港</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <widget class="QLineEdit" name="zhuanghuogang_lineedit">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="0">
+               <widget class="QLabel" name="Label_13">
+                <property name="styleSheet">
+                 <string notr="true">border:none;
+color:orange;</string>
+                </property>
+                <property name="text">
+                 <string>卸货港</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="1">
+               <widget class="QLineEdit" name="xiehuogang_lineedit">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="0">
+               <widget class="QLabel" name="Label_5">
+                <property name="styleSheet">
+                 <string notr="true">border:none;
+color:red
+;</string>
+                </property>
+                <property name="text">
+                 <string>目的地</string>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="1">
+               <widget class="QLineEdit" name="mudidi_lineedit">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="0">
+               <widget class="QLabel" name="Label_6">
+                <property name="styleSheet">
+                 <string notr="true">border:none;color:purple;</string>
+                </property>
+                <property name="text">
+                 <string>箱型</string>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="1">
+               <widget class="QLineEdit" name="xiangxing_lineedit">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+              <item row="8" column="0">
+               <widget class="QLabel" name="Label_7">
+                <property name="styleSheet">
+                 <string notr="true">border:none;color:purple;</string>
+                </property>
+                <property name="text">
+                 <string>箱量</string>
+                </property>
+               </widget>
+              </item>
+              <item row="8" column="1">
+               <widget class="QLineEdit" name="xiangliang_lineedit">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+              <item row="9" column="0">
+               <widget class="QLabel" name="Label_18">
+                <property name="styleSheet">
+                 <string notr="true">border:none;color:purple;</string>
+                </property>
+                <property name="text">
+                 <string>箱号</string>
+                </property>
+               </widget>
+              </item>
+              <item row="9" column="1">
+               <widget class="QLineEdit" name="xianghao_lineedit">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+              <item row="10" column="0">
+               <widget class="QLabel" name="Label_11">
+                <property name="styleSheet">
+                 <string notr="true">border:none;color:purple;</string>
+                </property>
+                <property name="text">
+                 <string>品名</string>
+                </property>
+               </widget>
+              </item>
+              <item row="10" column="1">
+               <widget class="QLineEdit" name="pinming_lineedit">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QLineEdit" name="hangci_lineedit">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="Label_12">
+                <property name="styleSheet">
+                 <string notr="true">border:none;
+color:red;</string>
+                </property>
+                <property name="text">
+                 <string>航次</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget" native="true">
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <property name="leftMargin">
+             <number>5</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_2">
+              <property name="styleSheet">
+               <string notr="true">border:none;
+color:orange;</string>
+              </property>
+              <property name="text">
+               <string>其他信息</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QFormLayout" name="formLayout_3">
+              <property name="horizontalSpacing">
+               <number>15</number>
+              </property>
+              <property name="verticalSpacing">
+               <number>17</number>
+              </property>
+              <property name="leftMargin">
+               <number>5</number>
+              </property>
+              <property name="topMargin">
+               <number>5</number>
+              </property>
+              <property name="rightMargin">
+               <number>5</number>
+              </property>
+              <property name="bottomMargin">
+               <number>5</number>
+              </property>
+              <item row="0" column="0">
+               <widget class="QLabel" name="Label_9">
+                <property name="styleSheet">
+                 <string notr="true">border:none;color:orange;</string>
+                </property>
+                <property name="text">
+                 <string>发票抬头</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QLineEdit" name="fapiaotaitou_lineedit">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="Label_10">
+                <property name="styleSheet">
+                 <string notr="true">border:none;color:blue;</string>
+                </property>
+                <property name="text">
+                 <string>填制日期</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLineEdit" name="zhibiaoriqi_lineedit">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QLabel" name="Label_19">
+                <property name="styleSheet">
+                 <string notr="true">border:none;color:blue;</string>
+                </property>
+                <property name="text">
+                 <string>铅封号</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QLineEdit" name="qianfenghao_lineedit">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0">
+               <widget class="QLabel" name="Label_22">
+                <property name="styleSheet">
+                 <string notr="true">border:none;color:orange;</string>
+                </property>
+                <property name="text">
+                 <string>委托单位</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QLineEdit" name="weituodanwei_lineedit">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QLabel" name="Label_24">
+                <property name="styleSheet">
+                 <string notr="true">border:none;color:red;</string>
+                </property>
+                <property name="text">
+                 <string>业务员</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <widget class="QLineEdit" name="yewuyuan_lineedit">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="0">
+               <widget class="QLabel" name="Label_25">
+                <property name="styleSheet">
+                 <string notr="true">border:none;color:red;</string>
+                </property>
+                <property name="text">
+                 <string>代理电话</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="1">
+               <widget class="QLineEdit" name="dailidianhua_lineedit">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="0">
+               <widget class="QLabel" name="Label_26">
+                <property name="styleSheet">
+                 <string notr="true">border:none;color:gray;</string>
+                </property>
+                <property name="text">
+                 <string>备注</string>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="1">
+               <widget class="QLineEdit" name="beizhu_lineedit">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="1">
+               <widget class="QListWidget" name="listwidget"/>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_3" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>1</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QWidget{	
+	border:none;
+	border:1px solid rgb(0,0,0);
+	font: 12pt &quot;微软雅黑&quot;;
+}
+QWidget QLabel{
+	border:none;
+	
+}
+QWidget QLineEdit{
+	font: 12pt &quot;微软雅黑&quot;;	
+}</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_19">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QWidget" name="widget" native="true">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border:none;
+</string>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_20">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>7</number>
+              </property>
+              <item>
+               <widget class="QLabel" name="label_47">
+                <property name="styleSheet">
+                 <string notr="true">color:red;</string>
+                </property>
+                <property name="text">
+                 <string>发货状态</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="operation_fahuo_checkbox">
+                <property name="styleSheet">
+                 <string notr="true">border:none;</string>
+                </property>
+                <property name="text">
+                 <string>发货</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="operation_daohuo_checkbox">
+                <property name="styleSheet">
+                 <string notr="true">border:none;</string>
+                </property>
+                <property name="text">
+                 <string>到货</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="operation_dizai_checkbox">
+                <property name="styleSheet">
+                 <string notr="true">border:none;</string>
+                </property>
+                <property name="text">
+                 <string>递载</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="checkBox_18">
+                <property name="styleSheet">
+                 <string notr="true">border:none;</string>
+                </property>
+                <property name="text">
+                 <string>报关</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="operation_jiancha_checkbox">
+                <property name="styleSheet">
+                 <string notr="true">border:none;</string>
+                </property>
+                <property name="text">
+                 <string>查检</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="operation_fangxing_checkbox">
+                <property name="styleSheet">
+                 <string notr="true">border:none;</string>
+                </property>
+                <property name="text">
+                 <string>放行</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QCheckBox" name="operation_zhuangzai_chexkbox">
+                <property name="styleSheet">
+                 <string notr="true">border:none;</string>
+                </property>
+                <property name="text">
+                 <string>装船</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_21">
+             <property name="spacing">
+              <number>45</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_48">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                 <horstretch>1</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color:red;</string>
+               </property>
+               <property name="text">
+                <string>出单方式</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                 <horstretch>9</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">border:none;
+</string>
+               </property>
+               <property name="title">
+                <string/>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_22">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QRadioButton" name="operation_zhengwen_radio">
+                  <property name="styleSheet">
+                   <string notr="true">border:none;</string>
+                  </property>
+                  <property name="text">
+                   <string>正文</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="operation_dianfang_radio">
+                  <property name="styleSheet">
+                   <string notr="true">border:none;</string>
+                  </property>
+                  <property name="text">
+                   <string>电放</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="operation_genggai_radio">
+                  <property name="styleSheet">
+                   <string notr="true">border:none;</string>
+                  </property>
+                  <property name="text">
+                   <string>更改</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="operation_hepiao_radio">
+                  <property name="styleSheet">
+                   <string notr="true">border:none;</string>
+                  </property>
+                  <property name="text">
+                   <string>合票</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QRadioButton" name="operation_fenpaio_radio">
+                  <property name="styleSheet">
+                   <string notr="true">border:none;</string>
+                  </property>
+                  <property name="text">
+                   <string>分票</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="lineEdit_46">
+               <property name="enabled">
+                <bool>false</bool>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(240, 240, 240);
+border:none;</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_2" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>1</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QWidget{	
+	font: 14pt &quot;微软雅黑&quot;;
+	border:none;
+	border:1px solid rgb(0,0,0);
+	font: 10pt &quot;微软雅黑&quot;;
+}
+QWidget QLabel{
+	border:none;
+	
+}
+QWidget QLineEdit{
+	font: 10pt &quot;微软雅黑&quot;;	
+}</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_15">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>7</number>
+         </property>
+         <property name="bottomMargin">
+          <number>7</number>
+         </property>
+         <item>
+          <widget class="QWidget" name="widget_5" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border:none;</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <item>
+             <widget class="QLabel" name="label_38">
+              <property name="styleSheet">
+               <string notr="true">color:orange;</string>
+              </property>
+              <property name="text">
+               <string>货物信息</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="formWidget_4" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+QWidget {
+	border:none;
+}
+QWidget QLineEdit{
+	border:1px solid rgb(0, 0, 0);
+	
+}</string>
+           </property>
+           <layout class="QFormLayout" name="formLayout_9">
+            <property name="topMargin">
+             <number>7</number>
+            </property>
+            <property name="bottomMargin">
+             <number>7</number>
+            </property>
+            <item row="0" column="0">
+             <widget class="QLabel" name="Label_41">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(170, 85, 255);</string>
+              </property>
+              <property name="text">
+               <string>货名</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="huoming_lineedit">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="Label_42">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(170, 170, 0);</string>
+              </property>
+              <property name="text">
+               <string>件数</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="jianshu_lineedit">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="Label_43">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(170, 170, 0);</string>
+              </property>
+              <property name="text">
+               <string>重量</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLineEdit" name="zhongliang_lineedit">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="Label_44">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 85, 127);</string>
+              </property>
+              <property name="text">
+               <string>体积</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLineEdit" name="tiji_lineedit_2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="Label_45">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 85, 127);</string>
+              </property>
+              <property name="text">
+               <string>计费吨</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLineEdit" name="jifeidun_lineedit">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QLabel" name="Label_46">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(170, 85, 255);</string>
+              </property>
+              <property name="text">
+               <string>发货人</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QTextEdit" name="fahuoren_textedit">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color:rgb(255, 255, 255);
+font: 12pt &quot;隶书&quot;;
+border:1px solid rgb(0,0,0,);</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="0">
+             <widget class="QLabel" name="Label_47">
+              <property name="styleSheet">
+               <string notr="true">color:red;</string>
+              </property>
+              <property name="text">
+               <string>收货人</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="1">
+             <widget class="QTextEdit" name="shouhuoren_textedit">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color:rgb(255, 255, 255);
+font: 12pt &quot;隶书&quot;;
+border:1px solid rgb(0,0,0,);</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="0">
+             <widget class="QLabel" name="Label_48">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(255, 85, 127);</string>
+              </property>
+              <property name="text">
+               <string>通知人</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="1">
+             <widget class="QTextEdit" name="tongzhiren_textedit">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color:rgb(255, 255, 255);
+font: 12pt &quot;隶书&quot;;
+border:1px solid rgb(0,0,0,);</string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="0">
+             <widget class="QLabel" name="Label_49">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(85, 0, 255);</string>
+              </property>
+              <property name="text">
+               <string>唛头</string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="1">
+             <widget class="QTextEdit" name="maitou_textedit">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color:rgb(255, 255, 255);
+font: 12pt &quot;隶书&quot;;
+border:1px solid rgb(0,0,0,);</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="0">
+             <widget class="QLabel" name="Label_50">
+              <property name="styleSheet">
+               <string notr="true">color: rgb(0, 85, 0);</string>
+              </property>
+              <property name="text">
+               <string>货描</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="1">
+             <widget class="QTextEdit" name="huomiao_textedit">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color:rgb(255, 255, 255);
+font: 12pt &quot;隶书&quot;;
+border:1px solid rgb(0,0,0,);</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>operation_from_combobox</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>Form</receiver>
+   <slot>fom_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>131</x>
+     <y>35</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>158</x>
+     <y>-78</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>operation_refresh_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>fresh_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>332</x>
+     <y>47</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>-177</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>operation_sql_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>SQL_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>547</x>
+     <y>44</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>515</x>
+     <y>-189</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>operation_reset_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>reset_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>768</x>
+     <y>37</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>768</x>
+     <y>-149</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>fom_lk()</slot>
+  <slot>fresh_lk()</slot>
+  <slot>SQL_lk()</slot>
+  <slot>reset_lk()</slot>
+  <slot>help_lk()</slot>
+ </slots>
+</ui>

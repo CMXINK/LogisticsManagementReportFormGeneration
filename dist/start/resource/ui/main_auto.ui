@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1121</width>
+    <height>814</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>4</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>35</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(23, 133, 175);
+color: rgb(252, 254, 19);
+font: 35pt &quot;微软雅黑&quot;;
+border:none</string>
+        </property>
+        <property name="text">
+         <string>天 津 玺 玖 国 际 物 流 有 限 公 司</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>1</verstretch>
+      </sizepolicy>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="styleSheet">
+         <string notr="true">font: 10pt &quot;微软雅黑&quot;;
+color:rgb(236, 236, 236);
+background-color: rgb(16, 155, 149);
+
+</string>
+        </property>
+        <property name="text">
+         <string>  急 速 物 流 管 理 系 统 VIP 版</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="widget_3" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>19</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(255, 255, 255);</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QWidget" name="widget_4" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+          <horstretch>1</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QTreeWidget" name="treewidget">
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <underline>false</underline>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QTreeWidget{
+	border:1px solid gray;
+}
+QTreeWidget QScroll::handle:horizontal{
+	border:1px solid gray;
+}</string>
+           </property>
+           <column>
+            <property name="text">
+             <string>业务</string>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+             </font>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QWidget" name="widget_5" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+          <horstretch>5</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QListWidget" name="listWidget">
+           <property name="styleSheet">
+            <string notr="true">
+QListWidget *{
+	 none;
+	}
+QListWidget{
+	 background-color:#f2f2f2;
+	font-size:18px;
+	}
+
+QListWidget::item
+	{
+	height:40px;
+	
+	padding-left:40px;
+	padding-right:40px;
+	border:none;
+	
+ }
+QListWidget::item::hover
+	{
+	background-color:#91c9f7;
+	border:2px solid #f2f2f2;
+	text-border:none;
+ }
+QListWidget::item::text
+	{
+	color:black;
+ }
+</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>添加</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>删除</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>取消</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_5">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>1</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>11</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(106, 153, 171);
+font: 11pt &quot;微软雅黑&quot;;
+color:rgb(255, 255, 255)
+</string>
+           </property>
+           <property name="text">
+            <string> 客 户 管 理</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="widget_6" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>2</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border:none;</string>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <property name="spacing">
+             <number>0</number>
+            </property>
+            <property name="leftMargin">
+             <number>0</number>
+            </property>
+            <property name="topMargin">
+             <number>0</number>
+            </property>
+            <property name="rightMargin">
+             <number>0</number>
+            </property>
+            <property name="bottomMargin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QWidget" name="widget_7" native="true">
+              <layout class="QHBoxLayout" name="horizontalLayout_4">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLabel" name="mainauto_result_label">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>1</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>80</width>
+                   <height>42</height>
+                  </size>
+                 </property>
+                 <property name="layoutDirection">
+                  <enum>Qt::LeftToRight</enum>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">font: 15pt &quot;微软雅黑&quot;;
+border-radius:12px;
+border:none;</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::Box</enum>
+                 </property>
+                 <property name="text">
+                  <string>0 个结果</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="mainauto_add_btn">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>2</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>80</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	border:none;
+	border-radius:7px;	
+	font: 13pt &quot;微软雅黑&quot;;
+	background-color: rgb(31, 117, 213);
+	color:rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	border:none;
+	border-radius:7px;	
+	font: 13pt &quot;微软雅黑&quot;;	
+	background-color: rgb(31, 117, 213);
+	color:rgb(31, 117, 213);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>添加</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="mainauto_match_btn">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>2</horstretch>
+                   <verstretch>1</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>80</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	border:none;
+	border-radius:7px;	
+	font: 13pt &quot;微软雅黑&quot;;
+	background-color: rgb(31, 117, 213);
+	color:rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	border:none;
+	border-radius:7px;	
+	font: 13pt &quot;微软雅黑&quot;;	
+	background-color: rgb(31, 117, 213);
+	color:rgb(31, 117, 213);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>查询</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="mainauto_edit_btn">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>2</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>80</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	border:none;
+	border-radius:7px;	
+	font: 13pt &quot;微软雅黑&quot;;
+	background-color: rgb(31, 117, 213);
+	color:rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	border:none;
+	border-radius:7px;	
+	font: 13pt &quot;微软雅黑&quot;;	
+	background-color: rgb(31, 117, 213);
+	color:rgb(31, 117, 213);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>编辑</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="mainauto_del_btn">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>2</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>80</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	border:none;
+	border-radius:7px;	
+	font: 13pt &quot;微软雅黑&quot;;
+	background-color: rgb(31, 117, 213);
+	color:rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	border:none;
+	border-radius:7px;	
+	font: 13pt &quot;微软雅黑&quot;;	
+	background-color: rgb(31, 117, 213);
+	color:rgb(31, 117, 213);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>删除</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="mainauto_saving_btn_2">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>2</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>80</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	border:none;
+	border-radius:7px;	
+	font: 13pt &quot;微软雅黑&quot;;
+	background-color: rgb(31, 117, 213);
+	color:rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	border:none;
+	border-radius:7px;	
+	font: 13pt &quot;微软雅黑&quot;;	
+	background-color: rgb(31, 117, 213);
+	color:rgb(31, 117, 213);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>刷新</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="mainauto_saving_btn">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>2</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>80</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	border:none;
+	border-radius:7px;	
+	font: 13pt &quot;微软雅黑&quot;;
+	background-color: rgb(31, 117, 213);
+	color:rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	border:none;
+	border-radius:7px;	
+	font: 13pt &quot;微软雅黑&quot;;	
+	background-color: rgb(31, 117, 213);
+	color:rgb(31, 117, 213);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>保存</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QComboBox" name="mainauto_fucntion_combobox">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>80</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QComboBox{
+	border:none;
+	border-radius:8px;	
+	font: 14pt &quot;微软雅黑&quot;;	
+	background-color: rgb(255, 85, 0);
+	color:rgb(255, 255, 255);
+	border-left:none;
+}
+QComboBox:clicked{
+	border:none;
+	border-radius:8px;	
+	font: 14pt &quot;微软雅黑&quot;;	
+	background-color: rgb(255, 85, 0);
+	color: rgb(255, 85, 0);
+}
+QComboBox::drop-down{
+	width:30px;
+	border-radius:8px;		
+	image: url(:/mainauto/mainauto_function_checkbox_drop-down.png);
+}
+QComboBox QAbstractItemView{
+	background-color:rgb(255, 170, 127);
+}</string>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>功能</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>打开</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>帮助</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>换号</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>tips</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>历史</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>部门</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Excel</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>退出</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>80</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	border:none;
+	border-radius:7px;	
+	font: 13pt &quot;微软雅黑&quot;;
+	background-color: rgb(31, 117, 213);
+	color:rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	border:none;
+	border-radius:7px;	
+	font: 13pt &quot;微软雅黑&quot;;	
+	background-color: rgb(31, 117, 213);
+	color:rgb(31, 117, 213);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>上一个</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_2">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>80</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	border:none;
+	border-radius:7px;	
+	font: 13pt &quot;微软雅黑&quot;;
+	background-color: rgb(31, 117, 213);
+	color:rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	border:none;
+	border-radius:7px;	
+	font: 13pt &quot;微软雅黑&quot;;	
+	background-color: rgb(31, 117, 213);
+	color:rgb(31, 117, 213);
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>下一个</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTableWidget" name="tableWidget">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>17</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>9</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+             <kerning>false</kerning>
+            </font>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	border:none;
+	border-radius:7px;	
+	font: 15pt &quot;微软雅黑&quot;;
+	background-color: rgb(31, 117, 213);
+	color:rgb(255, 255, 255);
+}
+QPushButton:pressed{
+	border:none;
+	border-radius:7px;	
+	font: 15pt &quot;微软雅黑&quot;;	
+	background-color: rgb(31, 117, 213);
+	color:rgb(31, 117, 213);
+}
+QTableWidget{
+	border:1px solid gray;
+	border-left:none;	
+	font: 9pt &quot;微软雅黑&quot;;
+}</string>
+           </property>
+           <attribute name="horizontalHeaderMinimumSectionSize">
+            <number>26</number>
+           </attribute>
+           <row>
+            <property name="text">
+             <string>new</string>
+            </property>
+           </row>
+           <row>
+            <property name="text">
+             <string>nwe</string>
+            </property>
+           </row>
+           <column>
+            <property name="text">
+             <string>新建列</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>新建列</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>新建列</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>新建列</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>新建列</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>新建列</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>新建列</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>新建列</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../image/mainauto.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>mainauto_add_btn</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Form</receiver>
+   <slot>mainauto_add_btn_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>383</x>
+     <y>253</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1279</x>
+     <y>237</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mainauto_match_btn</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Form</receiver>
+   <slot>mainauto_match_btn_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>473</x>
+     <y>253</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1236</x>
+     <y>251</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mainauto_edit_btn</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Form</receiver>
+   <slot>mainauto_edit_btn_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>563</x>
+     <y>253</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1222</x>
+     <y>221</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mainauto_del_btn</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Form</receiver>
+   <slot>mainauto_del_btn_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>253</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1281</x>
+     <y>275</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mainauto_saving_btn</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Form</receiver>
+   <slot>mainauto_saving_btn_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>768</x>
+     <y>244</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1281</x>
+     <y>263</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mainauto_fucntion_combobox</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>Form</receiver>
+   <slot>mainauto_function_combobox_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>864</x>
+     <y>226</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1139</x>
+     <y>228</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>mainauto_function_btn_2_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1054</x>
+     <y>233</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1144</x>
+     <y>193</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>mainauto_function_btn_1_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>955</x>
+     <y>233</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1210</x>
+     <y>127</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>mainauto_saving_btn_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Form</receiver>
+   <slot>mainauto_fresh_btn_lk()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>712</x>
+     <y>230</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1137</x>
+     <y>259</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>mainauto_add_btn_lk()</slot>
+  <slot>mainauto_match_btn_lk()</slot>
+  <slot>mainauto_edit_btn_lk()</slot>
+  <slot>mainauto_del_btn_lk()</slot>
+  <slot>mainauto_function_btn_lk()</slot>
+  <slot>mainauto_saving_btn_lk()</slot>
+  <slot>mainauto_function_btn_1_lk()</slot>
+  <slot>mainauto_function_btn_2_lk()</slot>
+  <slot>mainauto_function_combobox_lk()</slot>
+  <slot>mainauto_tabelwidget_lk()</slot>
+  <slot>mainauto_fresh_btn_lk()</slot>
+ </slots>
+</ui>
